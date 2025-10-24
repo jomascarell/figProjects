@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--  Font form google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/62e28d68a6.js" crossorigin="anonymous"></script>
+    <!--    -->
+    <title>Car Sales Site</title>
+
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="headings">
+            <h1>Available Cars</h1>
+            <p>There are 15 cars that match your criteria</p>
+        </div>
+        <div class="options">
+            <div class="icon">
+                <input type="text" class="search">
+                <img src="assets/menu.svg" alt="menu">
+            </div>
+
+            <div class="filter">
+                <div class="chk-container">
+                    <input type="checkbox" id="new">
+                    <label for="new">New cars</label>
+                </div>
+                <div class="chk-container">
+                    <input type="checkbox" id="used">
+                    <label for="used">Used cars</label>
+                </div>
+                <div class="chk-container">
+                    <input type="checkbox" id="dealer">
+                    <label for="dealer">Dealership</label>
+                </div>
+                <div class="chk-container">
+                    <input type="checkbox" id="owner">
+                    <label for="owner">For sale by owner</label>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="labels">
+            <p class="lbl-detail">Car Details</p>
+            <p class="lbl-detail">Location</p>
+            <p class="lbl-detail">Price</p>
+            <p class="lbl-detail">Action</p>
+        </div>
+        <!--    1    -->
+        <div class="cars">
+            <a href="#" class="car-name">2017 Toyota Highlander V4</a>
+            <p class="car-location">1944 Scrimba Ln
+                Youngstown, OH 44481</p>
+            <div class="cols-2">
+                <p class="car-price">$17,400</p>
+                <i onclick="changeHeart(this)" class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+
+        <!--    1    -->
+
+        <!--    2    -->
+        <div class="cars">
+            <a href="#" class="car-name">2012 Toyota Tundra 4x4</a>
+            <p class="car-location">301 Fantasy Dr
+                Beverly Hills, CA 90210</p>
+            <div class="cols-2">
+                <p class="car-price">$23,900</p>
+                <i onclick="changeHeart(this)" class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+        <!--    2    -->
+
+        <!--    3    -->
+        <div class="cars">
+            <a href="#" class="car-name">2004 Dodge Ram 4x4</a>
+            <p class="car-location">9104 Falsety Ave
+                AnonyVille, FL 40440</p>
+            <div class="cols-2">
+                <p class="car-price">$7,998</p>
+                <i onclick="changeHeart(this)" class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+        <!--    3    -->
+
+        <!--    4    -->
+        <div class="cars">
+            <a href="#" class="car-name">2021 Tesla Model 3</a>
+            <p class="car-location">993 Fiscal St
+                Boulder, CO 93391</p>
+            <div class="cols-2">
+                <p class="car-price">$37,490</p>
+                <i onclick="changeHeart(this)" class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+        <!--   4     -->
+
+        <!--     5   -->
+        <div class="cars">
+            <a href="#" class="car-name">2017 Toyota Highlander V4</a>
+            <p class="car-location">1944 Scrimba Ln
+                Youngstown, OH 44481</p>
+            <div class="cols-2">
+                <p class="car-price">$17,400</p>
+                <i onclick="changeHeart(this)" class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+        <!--   5    -->
+
+        <!--    6    -->
+        <div class="cars">
+            <a href="#" class="car-name">2012 Toyota Tundra 4x4</a>
+            <p class="car-location">301 Fantasy Dr
+                Beverly Hills, CA 90210</p>
+            <div class="cols-2">
+                <p class="car-price">$23,900</p>
+                <i onclick="changeHeart(this)" class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+        <!--    6    -->
+
+    </main>
+</div>
+
+</body>
+</html>
